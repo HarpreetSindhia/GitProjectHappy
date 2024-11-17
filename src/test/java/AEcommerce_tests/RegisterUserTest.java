@@ -41,3 +41,4 @@ public class RegisterUserTest extends BaseTest {
 	}
 
 }
+//Register user for First Time
