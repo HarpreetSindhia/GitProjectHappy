@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-16T13:13:09 IST" name="Suite" finished-at="2024-11-16T13:19:32 IST" duration-ms="382994">
+    <groups>
+      <group name="PurchaseOrder">
+        <method signature="LoginBeforeCheckoutTest.productCart(java.util.HashMap)[pri:0, instance:AEcommerce_tests.LoginBeforeCheckoutTest@5e3f861]" name="productCart" class="AEcommerce_tests.LoginBeforeCheckoutTest"/>
+      </group> <!-- PurchaseOrder -->
+      <group name="Error Handling">
+        <method signature="LoginIncorrectEmailPasswordTest.loginIncorrect(java.util.HashMap)[pri:0, instance:AEcommerce_tests.LoginIncorrectEmailPasswordTest@41f69e84]" name="loginIncorrect" class="AEcommerce_tests.LoginIncorrectEmailPasswordTest"/>
+      </group> <!-- Error Handling -->
+    </groups>
+    <test started-at="2024-11-16T13:13:09 IST" name="AddRecommendedItems_ReviewProducts" finished-at="2024-11-16T13:14:45 IST" duration-ms="95986">
+      <class name="AEcommerce_tests.AddRecommendedItems_ReviewOnProductsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.AddRecommendedItems_ReviewOnProductsTest@13d73f29]" started-at="2024-11-16T13:13:10 IST" name="launchApplication" finished-at="2024-11-16T13:13:15 IST" duration-ms="5994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="addProductReview(java.util.HashMap)[pri:0, instance:AEcommerce_tests.AddRecommendedItems_ReviewOnProductsTest@13d73f29]" started-at="2024-11-16T13:13:16 IST" name="addProductReview" data-provider="getData" finished-at="2024-11-16T13:14:11 IST" duration-ms="55365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Harpreet Sindhia, review=Good Product liked it so far, email=harrysindhia@gmail.com, targetProduct=Winter Top}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductReview -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.AddRecommendedItems_ReviewOnProductsTest@13d73f29]" started-at="2024-11-16T13:14:11 IST" name="tearDown" finished-at="2024-11-16T13:14:11 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.AddRecommendedItems_ReviewOnProductsTest@13d73f29]" started-at="2024-11-16T13:14:11 IST" name="launchApplication" finished-at="2024-11-16T13:14:14 IST" duration-ms="2554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="addRecommendedItems(java.util.HashMap)[pri:0, instance:AEcommerce_tests.AddRecommendedItems_ReviewOnProductsTest@13d73f29]" started-at="2024-11-16T13:14:14 IST" name="addRecommendedItems" data-provider="getData" finished-at="2024-11-16T13:14:45 IST" duration-ms="30530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Harpreet Sindhia, review=Good Product liked it so far, email=harrysindhia@gmail.com, targetProduct=Winter Top}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRecommendedItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.AddRecommendedItems_ReviewOnProductsTest@13d73f29]" started-at="2024-11-16T13:14:45 IST" name="tearDown" finished-at="2024-11-16T13:14:45 IST" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AEcommerce_tests.AddRecommendedItems_ReviewOnProductsTest -->
+    </test> <!-- AddRecommendedItems_ReviewProducts -->
+    <test started-at="2024-11-16T13:13:09 IST" name="ScrollFunction" finished-at="2024-11-16T13:14:45 IST" duration-ms="96111">
+      <class name="AEcommerce_tests.VerifyScrollFunctionTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.VerifyScrollFunctionTest@147e2ae7]" started-at="2024-11-16T13:13:09 IST" name="launchApplication" finished-at="2024-11-16T13:13:58 IST" duration-ms="48658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="scrollUpWithArrow()[pri:0, instance:AEcommerce_tests.VerifyScrollFunctionTest@147e2ae7]" started-at="2024-11-16T13:13:58 IST" name="scrollUpWithArrow" finished-at="2024-11-16T13:14:00 IST" duration-ms="2162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollUpWithArrow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.VerifyScrollFunctionTest@147e2ae7]" started-at="2024-11-16T13:14:00 IST" name="tearDown" finished-at="2024-11-16T13:14:02 IST" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.VerifyScrollFunctionTest@147e2ae7]" started-at="2024-11-16T13:14:02 IST" name="launchApplication" finished-at="2024-11-16T13:14:06 IST" duration-ms="4457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="scrollUpWithoutTheArrow()[pri:0, instance:AEcommerce_tests.VerifyScrollFunctionTest@147e2ae7]" started-at="2024-11-16T13:14:06 IST" name="scrollUpWithoutTheArrow" finished-at="2024-11-16T13:14:45 IST" duration-ms="38768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollUpWithoutTheArrow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.VerifyScrollFunctionTest@147e2ae7]" started-at="2024-11-16T13:14:45 IST" name="tearDown" finished-at="2024-11-16T13:14:45 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AEcommerce_tests.VerifyScrollFunctionTest -->
+    </test> <!-- ScrollFunction -->
+    <test started-at="2024-11-16T13:14:46 IST" name="ProductCategory_Brand" finished-at="2024-11-16T13:17:08 IST" duration-ms="142353">
+      <class name="AEcommerce_tests.ViewCategory_BrandProductsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.ViewCategory_BrandProductsTest@20bd8be5]" started-at="2024-11-16T13:14:46 IST" name="launchApplication" finished-at="2024-11-16T13:14:50 IST" duration-ms="3677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="viewBrandProducts()[pri:0, instance:AEcommerce_tests.ViewCategory_BrandProductsTest@20bd8be5]" started-at="2024-11-16T13:14:50 IST" name="viewBrandProducts" finished-at="2024-11-16T13:15:30 IST" duration-ms="40036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewBrandProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.ViewCategory_BrandProductsTest@20bd8be5]" started-at="2024-11-16T13:15:30 IST" name="tearDown" finished-at="2024-11-16T13:15:30 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.ViewCategory_BrandProductsTest@20bd8be5]" started-at="2024-11-16T13:15:30 IST" name="launchApplication" finished-at="2024-11-16T13:16:12 IST" duration-ms="42538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="viewCategoryProducts()[pri:0, instance:AEcommerce_tests.ViewCategory_BrandProductsTest@20bd8be5]" started-at="2024-11-16T13:16:12 IST" name="viewCategoryProducts" finished-at="2024-11-16T13:17:06 IST" duration-ms="53489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCategoryProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.ViewCategory_BrandProductsTest@20bd8be5]" started-at="2024-11-16T13:17:06 IST" name="tearDown" finished-at="2024-11-16T13:17:08 IST" duration-ms="2303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AEcommerce_tests.ViewCategory_BrandProductsTest -->
+    </test> <!-- ProductCategory_Brand -->
+    <test started-at="2024-11-16T13:13:09 IST" name="LoginBeforeCheckout" finished-at="2024-11-16T13:17:35 IST" duration-ms="266011">
+      <class name="AEcommerce_tests.LoginBeforeCheckoutTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.LoginBeforeCheckoutTest@5e3f861]" started-at="2024-11-16T13:13:10 IST" name="launchApplication" finished-at="2024-11-16T13:13:16 IST" duration-ms="6616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productCart(java.util.HashMap)[pri:0, instance:AEcommerce_tests.LoginBeforeCheckoutTest@5e3f861]" started-at="2024-11-16T13:13:16 IST" name="productCart" data-provider="getData" finished-at="2024-11-16T13:17:30 IST" duration-ms="254332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{expMonth=02, password=sindhiaNav55, cardNum=957866441, targetProducts=[Premium Polo T-Shirts, GRAPHIC DESIGN MEN T SHIRT - BLUE], cardCVC=512, cardHolderName=Navdeep Sindhia, expYear=2028, email=navsindhia@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.LoginBeforeCheckoutTest@5e3f861]" started-at="2024-11-16T13:17:30 IST" name="tearDown" finished-at="2024-11-16T13:17:35 IST" duration-ms="4714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AEcommerce_tests.LoginBeforeCheckoutTest -->
+    </test> <!-- LoginBeforeCheckout -->
+    <test started-at="2024-11-16T13:13:09 IST" name="SearchProduct_VerifyCartAfterLogin" finished-at="2024-11-16T13:17:35 IST" duration-ms="266145">
+      <class name="AEcommerce_tests.SearchProduct_VerifyCartAfterLoginTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.SearchProduct_VerifyCartAfterLoginTest@311bf055]" started-at="2024-11-16T13:13:10 IST" name="launchApplication" finished-at="2024-11-16T13:13:22 IST" duration-ms="12946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="removeProduct(java.util.HashMap)[pri:0, instance:AEcommerce_tests.SearchProduct_VerifyCartAfterLoginTest@311bf055]" started-at="2024-11-16T13:13:22 IST" name="removeProduct" data-provider="getData" finished-at="2024-11-16T13:14:29 IST" duration-ms="66971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchProduct=saree, password=sindhiaHarry55, targetProducts=[Sleeveless Unicorn Patch Gown - Pink, Blue Cotton Indie Mickey Dress, Premium Polo T-Shirts], email=harrysindhia@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.SearchProduct_VerifyCartAfterLoginTest@311bf055]" started-at="2024-11-16T13:14:29 IST" name="tearDown" finished-at="2024-11-16T13:14:30 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.SearchProduct_VerifyCartAfterLoginTest@311bf055]" started-at="2024-11-16T13:14:30 IST" name="launchApplication" finished-at="2024-11-16T13:14:33 IST" duration-ms="3563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchProduct(java.util.HashMap)[pri:0, instance:AEcommerce_tests.SearchProduct_VerifyCartAfterLoginTest@311bf055]" started-at="2024-11-16T13:14:33 IST" name="searchProduct" data-provider="getData" finished-at="2024-11-16T13:17:33 IST" duration-ms="180091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchProduct=saree, password=sindhiaHarry55, targetProducts=[Sleeveless Unicorn Patch Gown - Pink, Blue Cotton Indie Mickey Dress, Premium Polo T-Shirts], email=harrysindhia@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.SearchProduct_VerifyCartAfterLoginTest@311bf055]" started-at="2024-11-16T13:17:33 IST" name="tearDown" finished-at="2024-11-16T13:17:35 IST" duration-ms="1833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AEcommerce_tests.SearchProduct_VerifyCartAfterLoginTest -->
+    </test> <!-- SearchProduct_VerifyCartAfterLogin -->
+    <test started-at="2024-11-16T13:14:46 IST" name="ProductDetailsPage" finished-at="2024-11-16T13:18:20 IST" duration-ms="214063">
+      <class name="AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest@13526e59]" started-at="2024-11-16T13:14:46 IST" name="launchApplication" finished-at="2024-11-16T13:14:50 IST" duration-ms="3807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productCart(java.util.HashMap)[pri:0, instance:AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest@13526e59]" started-at="2024-11-16T13:14:50 IST" name="productCart" data-provider="getData" finished-at="2024-11-16T13:16:57 IST" duration-ms="126957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{targetProducts=[Stylish Dress, Long Maxi Tulle Fancy Dress Up Outfits -Pink]}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest@13526e59]" started-at="2024-11-16T13:16:57 IST" name="tearDown" finished-at="2024-11-16T13:16:58 IST" duration-ms="1581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest@13526e59]" started-at="2024-11-16T13:16:58 IST" name="launchApplication" finished-at="2024-11-16T13:17:25 IST" duration-ms="27047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="updateQuantity()[pri:0, instance:AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest@13526e59]" started-at="2024-11-16T13:17:25 IST" name="updateQuantity" finished-at="2024-11-16T13:17:35 IST" duration-ms="10224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateQuantity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest@13526e59]" started-at="2024-11-16T13:17:35 IST" name="tearDown" finished-at="2024-11-16T13:17:37 IST" duration-ms="1654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest@13526e59]" started-at="2024-11-16T13:17:37 IST" name="launchApplication" finished-at="2024-11-16T13:18:05 IST" duration-ms="27831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyProductDetail()[pri:0, instance:AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest@13526e59]" started-at="2024-11-16T13:18:05 IST" name="verifyProductDetail" finished-at="2024-11-16T13:18:15 IST" duration-ms="9618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDetail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest@13526e59]" started-at="2024-11-16T13:18:15 IST" name="tearDown" finished-at="2024-11-16T13:18:20 IST" duration-ms="5319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AEcommerce_tests.Product_ProductsDetailPage_ProductsIntoCart_UpdateCartQuantityTest -->
+    </test> <!-- ProductDetailsPage -->
+    <test started-at="2024-11-16T13:17:35 IST" name="LoginIncorrect" finished-at="2024-11-16T13:18:55 IST" duration-ms="80110">
+      <class name="AEcommerce_tests.LoginIncorrectEmailPasswordTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.LoginIncorrectEmailPasswordTest@41f69e84]" started-at="2024-11-16T13:17:35 IST" name="launchApplication" finished-at="2024-11-16T13:18:05 IST" duration-ms="30210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginIncorrect(java.util.HashMap)[pri:0, instance:AEcommerce_tests.LoginIncorrectEmailPasswordTest@41f69e84]" started-at="2024-11-16T13:18:05 IST" name="loginIncorrect" data-provider="getData" finished-at="2024-11-16T13:18:17 IST" duration-ms="11014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{uEmail=harrysindhia@gmail.com, password=sindhiaAman55, uName=Abir Sindhia, email=harrysindhia@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIncorrect -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.LoginIncorrectEmailPasswordTest@41f69e84]" started-at="2024-11-16T13:18:17 IST" name="tearDown" finished-at="2024-11-16T13:18:20 IST" duration-ms="3275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.LoginIncorrectEmailPasswordTest@41f69e84]" started-at="2024-11-16T13:18:20 IST" name="launchApplication" finished-at="2024-11-16T13:18:49 IST" duration-ms="29259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="registerExistingEmail(java.util.HashMap)[pri:0, instance:AEcommerce_tests.LoginIncorrectEmailPasswordTest@41f69e84]" started-at="2024-11-16T13:18:49 IST" name="registerExistingEmail" data-provider="getData" finished-at="2024-11-16T13:18:55 IST" duration-ms="6076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{uEmail=harrysindhia@gmail.com, password=sindhiaAman55, uName=Abir Sindhia, email=harrysindhia@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.LoginIncorrectEmailPasswordTest@41f69e84]" started-at="2024-11-16T13:18:55 IST" name="tearDown" finished-at="2024-11-16T13:18:55 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AEcommerce_tests.LoginIncorrectEmailPasswordTest -->
+    </test> <!-- LoginIncorrect -->
+    <test started-at="2024-11-16T13:17:08 IST" name="ContactUS" finished-at="2024-11-16T13:19:01 IST" duration-ms="112816">
+      <class name="AEcommerce_tests.ContactUsForm_SubscriptionTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.ContactUsForm_SubscriptionTest@4ee203eb]" started-at="2024-11-16T13:17:08 IST" name="launchApplication" finished-at="2024-11-16T13:17:12 IST" duration-ms="4120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="contactUs(java.util.HashMap)[pri:0, instance:AEcommerce_tests.ContactUsForm_SubscriptionTest@4ee203eb]" started-at="2024-11-16T13:17:12 IST" name="contactUs" data-provider="getData" finished-at="2024-11-16T13:18:09 IST" duration-ms="56425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{uploadFile=C:\Users\Dell\Pictures\Screenshots\ErrorLogout.png, user=Harpreet Sindhia, subject=Logout not working, email=harrysindhia@gmail.com, textArea=Please fix the logout button, please fix the same asap}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.ContactUsForm_SubscriptionTest@4ee203eb]" started-at="2024-11-16T13:18:09 IST" name="tearDown" finished-at="2024-11-16T13:18:22 IST" duration-ms="12771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.ContactUsForm_SubscriptionTest@4ee203eb]" started-at="2024-11-16T13:18:22 IST" name="launchApplication" finished-at="2024-11-16T13:19:00 IST" duration-ms="38784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifySubscription(java.util.HashMap)[pri:0, instance:AEcommerce_tests.ContactUsForm_SubscriptionTest@4ee203eb]" started-at="2024-11-16T13:19:00 IST" name="verifySubscription" data-provider="getData" finished-at="2024-11-16T13:19:01 IST" duration-ms="380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{uploadFile=C:\Users\Dell\Pictures\Screenshots\ErrorLogout.png, user=Harpreet Sindhia, subject=Logout not working, email=harrysindhia@gmail.com, textArea=Please fix the logout button, please fix the same asap}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubscription -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.ContactUsForm_SubscriptionTest@4ee203eb]" started-at="2024-11-16T13:19:01 IST" name="tearDown" finished-at="2024-11-16T13:19:01 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AEcommerce_tests.ContactUsForm_SubscriptionTest -->
+    </test> <!-- ContactUS -->
+    <test started-at="2024-11-16T13:13:09 IST" name="Test" finished-at="2024-11-16T13:19:32 IST" duration-ms="382994">
+      <class name="AEcommerce_tests.LoginEmail_ProductCheckoutTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.LoginEmail_ProductCheckoutTest@4722ef0c]" started-at="2024-11-16T13:13:10 IST" name="launchApplication" finished-at="2024-11-16T13:13:16 IST" duration-ms="6450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginCorrect(java.util.HashMap)[pri:0, instance:AEcommerce_tests.LoginEmail_ProductCheckoutTest@4722ef0c]" started-at="2024-11-16T13:13:16 IST" name="loginCorrect" data-provider="getData" finished-at="2024-11-16T13:15:17 IST" duration-ms="121431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{expMonth=11, password=sindhiaAmo55, expectedbillingAddress=Your billing address
+Mrs. Amandeep Sindhia
+Amazon
+1212 Silicon Valley
+New Vales Toronto 56002
+Canada
+9915942850, cardNum=778899224446, targetProducts=[Pure Cotton Neon Green Tshirt, Regular Fit Straight Jeans, Green Side Placket Detail T-Shirt], expectedDeliveryAddress=Your delivery address
+Mrs. Amandeep Sindhia
+Amazon
+1212 Silicon Valley
+New Vales Toronto 56002
+Canada
+9915942850, cardCVC=712, cardHolderName=Amandeep Sindhia, expYear=2030, userName=Amandeep Sindhia, email=imamansindhia@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCorrect -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.LoginEmail_ProductCheckoutTest@4722ef0c]" started-at="2024-11-16T13:15:17 IST" name="tearDown" finished-at="2024-11-16T13:15:18 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.LoginEmail_ProductCheckoutTest@4722ef0c]" started-at="2024-11-16T13:15:18 IST" name="launchApplication" finished-at="2024-11-16T13:15:55 IST" duration-ms="37060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginCorrect(java.util.HashMap)[pri:0, instance:AEcommerce_tests.LoginEmail_ProductCheckoutTest@4722ef0c]" started-at="2024-11-16T13:15:55 IST" name="loginCorrect" data-provider="getData" finished-at="2024-11-16T13:17:06 IST" duration-ms="71347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{expMonth=12, password=sindhiaYuv55, expectedbillingAddress=Your billing address
+Mr. Yuvaan Sindhia
+Porsche
+223, Kingfisher Avenue
+TownsVile , Brisbane
+Brisbane Florida 7894003
+Australia
+9875495822, cardNum=778899224446, targetProducts=[Winter Top, Soft Stretch Jeans, Grunt Blue Slim Fit Jeans], expectedDeliveryAddress=Your delivery address
+Mr. Yuvaan Sindhia
+Porsche
+223, Kingfisher Avenue
+TownsVile , Brisbane
+Brisbane Florida 7894003
+Australia
+9875495822, cardCVC=412, cardHolderName=Yuvaan Sindhia, expYear=2030, userName=Yuvaan Sindhia, email=yuvsindhia@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCorrect -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.LoginEmail_ProductCheckoutTest@4722ef0c]" started-at="2024-11-16T13:17:06 IST" name="tearDown" finished-at="2024-11-16T13:17:08 IST" duration-ms="1878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.LoginEmail_ProductCheckoutTest@4722ef0c]" started-at="2024-11-16T13:17:08 IST" name="launchApplication" finished-at="2024-11-16T13:17:13 IST" duration-ms="4342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginWhileCheckout(java.util.HashMap)[pri:0, instance:AEcommerce_tests.LoginEmail_ProductCheckoutTest@4722ef0c]" started-at="2024-11-16T13:17:13 IST" name="loginWhileCheckout" data-provider="getData" finished-at="2024-11-16T13:18:38 IST" duration-ms="85051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{expMonth=11, password=sindhiaAmo55, expectedbillingAddress=Your billing address
+Mrs. Amandeep Sindhia
+Amazon
+1212 Silicon Valley
+New Vales Toronto 56002
+Canada
+9915942850, cardNum=778899224446, targetProducts=[Pure Cotton Neon Green Tshirt, Regular Fit Straight Jeans, Green Side Placket Detail T-Shirt], expectedDeliveryAddress=Your delivery address
+Mrs. Amandeep Sindhia
+Amazon
+1212 Silicon Valley
+New Vales Toronto 56002
+Canada
+9915942850, cardCVC=712, cardHolderName=Amandeep Sindhia, expYear=2030, userName=Amandeep Sindhia, email=imamansindhia@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWhileCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.LoginEmail_ProductCheckoutTest@4722ef0c]" started-at="2024-11-16T13:18:38 IST" name="tearDown" finished-at="2024-11-16T13:18:38 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.LoginEmail_ProductCheckoutTest@4722ef0c]" started-at="2024-11-16T13:18:38 IST" name="launchApplication" finished-at="2024-11-16T13:19:05 IST" duration-ms="27265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginWhileCheckout(java.util.HashMap)[pri:0, instance:AEcommerce_tests.LoginEmail_ProductCheckoutTest@4722ef0c]" started-at="2024-11-16T13:19:05 IST" name="loginWhileCheckout" data-provider="getData" finished-at="2024-11-16T13:19:32 IST" duration-ms="26502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{expMonth=12, password=sindhiaYuv55, expectedbillingAddress=Your billing address
+Mr. Yuvaan Sindhia
+Porsche
+223, Kingfisher Avenue
+TownsVile , Brisbane
+Brisbane Florida 7894003
+Australia
+9875495822, cardNum=778899224446, targetProducts=[Winter Top, Soft Stretch Jeans, Grunt Blue Slim Fit Jeans], expectedDeliveryAddress=Your delivery address
+Mr. Yuvaan Sindhia
+Porsche
+223, Kingfisher Avenue
+TownsVile , Brisbane
+Brisbane Florida 7894003
+Australia
+9875495822, cardCVC=412, cardHolderName=Yuvaan Sindhia, expYear=2030, userName=Yuvaan Sindhia, email=yuvsindhia@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWhileCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.LoginEmail_ProductCheckoutTest@4722ef0c]" started-at="2024-11-16T13:19:32 IST" name="tearDown" finished-at="2024-11-16T13:19:32 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AEcommerce_tests.LoginEmail_ProductCheckoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

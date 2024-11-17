@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-17T21:03:16 IST" name="Default suite" finished-at="2024-11-17T21:04:10 IST" duration-ms="54027">
+    <groups>
+    </groups>
+    <test started-at="2024-11-17T21:03:16 IST" name="Default test" finished-at="2024-11-17T21:04:10 IST" duration-ms="54027">
+      <class name="AEcommerce_tests.RegisterUser">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AEcommerce_tests.RegisterUser@6d763516]" started-at="2024-11-17T21:03:16 IST" name="launchApplication" finished-at="2024-11-17T21:03:20 IST" duration-ms="3456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="registerUser(java.util.HashMap)[pri:0, instance:AEcommerce_tests.RegisterUser@6d763516]" started-at="2024-11-17T21:03:20 IST" name="registerUser" data-provider="getData" finished-at="2024-11-17T21:04:10 IST" duration-ms="49735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{uEmail=anuengSindhia777@gmail.com, lastName=Sindhia, country=Australia, zipCode=243001, city=Brisbane, address1=223, Kingfisher Avenue, mobileNo=8155491448, userName=Anaahadbir Singh Sindhia, firstName=Anaahadbir, password=sindhiaAnueng55, uName=Anaahadbir Singh Sindhia, company=Defender, state=Canberre}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AEcommerce_tests.RegisterUser@6d763516]" started-at="2024-11-17T21:04:10 IST" name="tearDown" finished-at="2024-11-17T21:04:10 IST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AEcommerce_tests.RegisterUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
